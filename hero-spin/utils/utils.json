@@ -1,0 +1,49 @@
+{
+    "heroes": [
+        {
+            "name": "Captain America",
+            "realname": "Steve Rogers",
+            "team": "Avengers",
+            "firstappearance": "1941",
+            "createdby": "Joe Simon",
+            "publisher": "Marvel Comics",
+            "imageurl": "https:\/\/www.simplifiedcoding.net\/demos\/marvel\/captainamerica.jpg"
+        },
+        {
+            "name": "Iron Man",
+            "realname": "Tony Stark",
+            "team": "Avengers",
+            "firstappearance": "1963",
+            "createdby": "Stan Lee",
+            "publisher": "Marvel Comics",
+            "imageurl": "https:\/\/www.simplifiedcoding.net\/demos\/marvel\/ironman.jpg"
+        },
+        {
+            "name": "Wolvarine",
+            "realname": "James Howlett",
+            "team": "X-Men",
+            "firstappearance": "1974",
+            "createdby": "Len Wein",
+            "publisher": "Marvel Comics",
+            "imageurl": "https:\/\/www.simplifiedcoding.net\/demos\/marvel\/logan.jpg"
+        },
+        {
+            "name": "Spiderman",
+            "realname": "Peter Parker",
+            "team": "Avengers",
+            "firstappearance": "1962",
+            "createdby": "Stan Lee",
+            "publisher": "Marvel Comics",
+            "imageurl": "https:\/\/www.simplifiedcoding.net\/demos\/marvel\/spiderman.jpg"
+        },
+        {
+            "name": "Thor",
+            "realname": "Thor Odinson",
+            "team": "Avengers",
+            "firstappearance": "1962",
+            "createdby": "Stan Lee",
+            "publisher": "Marvel Comics",
+            "imageurl": "https:\/\/www.simplifiedcoding.net\/demos\/marvel\/thor.jpg"
+        }
+    ]
+}

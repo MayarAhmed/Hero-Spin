@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "SuperHero";
+    src: url("../../assets/fonts/captain-marvel-font/Captainmarvel-anm9.ttf") format("truetype");;
+    font-weight: 400;
+    font-style: normal;
+  }
+.card{
+    width: 345;
+    border-radius:20px;
+    background-color: none;
+    box-shadow: none;
+    color:#fff;
+}
+
+.buttonBase{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+}
+
+.cardMedia {
+    border-radius:50%;
+    width:70%;
+    height:150px;
+}
+
+.marvel{
+    font-family: "SuperHero";
+}

@@ -1,7 +1,7 @@
-import Head from 'next/head';
+import Heroes from "../components/heroes-page/HeroesPage";
 
 export default function HeroPage () {
   return (
-    <h1>Hero Page</h1>
+    <Heroes/>
   )
 }

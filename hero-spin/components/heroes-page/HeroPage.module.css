@@ -1,0 +1,26 @@
+@font-face{
+    font-family: 'Marvel';
+    src: url("../../assets/fonts/thor-ragnarok-font/ThorRagnarok-xWEm.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+.heroBackgroud {
+    background-image: url("../../assets/galaxy.jpg");
+    background-size:cover;
+    background-position: center;
+    height:350px;
+    color:#fff;
+    border-radius:0 0 50% 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Marvel";
+}
+
+.heroBackgroud h1{
+    letter-spacing: 10px;;
+}
+
+.gridCard {
+   margin-top:30px;
+}
