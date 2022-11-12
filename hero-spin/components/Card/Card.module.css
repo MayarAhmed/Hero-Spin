@@ -18,12 +18,13 @@
     margin:auto;
 }
 
-.cardMedia {
-    border-radius:50%;
-    width:70%;
-    height:150px;
-}
+
 
 .marvel{
     font-family: "SuperHero";
 }
+
+.fixedImage{
+    height:400px;
+}
+

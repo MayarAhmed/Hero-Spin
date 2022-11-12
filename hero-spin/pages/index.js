@@ -1,14 +1,7 @@
-import Head from 'next/head'
+import Heroes from "../components/heroes-page/HeroesPage";
 
 export default function Home() {
   return (
-    <div className='container'>
-      <Head>
-        <h1>Hero Spin</h1>
-        <meta name="description" content="Your Hero Watchlist" />
-        <link rel="stylesheet" href="/styles.css"/>
-      </Head>
-     
-    </div>
+    <Heroes/>
   )
 }

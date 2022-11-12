@@ -1,27 +1,27 @@
 import React, { createContext, useState, useEffect, useContext } from "react";
+import { useRouter } from "next/router";
 import { fetchHeroData } from "../helpers/HeroData";
 
 const HeroContext = createContext({});
 
-export const HeroContextProvider = ({ children }) =>{
-    const [selectedHero, setSelectedHero] = useState(null);
-    const [heroData, setHeroData] = useState([])
-    useEffect(() => {
-        const fetchAPI = async () => {
-          const data = await fetchHeroData(selectedHero);
-          console.log({data})
-          setHeroData(data);
-        };
-        fetchAPI();
-      }, [selectedHero]);
+export const HeroContextProvider = ({ children }) => {
+  const [selectedHero, setSelectedHero] = useState(null);
+  const [heroData, setHeroData] = useState([]);
+  useEffect(() => {
+    const fetchAPI = async () => {
+      if (selectedHero) {
+        const data = await fetchHeroData(selectedHero);
+        setHeroData(data);
+      }
+    };
 
-      return (
-        <HeroContext.Provider value={{ selectedHero, setSelectedHero, heroData }}>
-          {children}
-        </HeroContext.Provider>
-      );
-}
+    fetchAPI();
+  }, [selectedHero]);
+
+  return (
+    <HeroContext.Provider value={{ selectedHero, setSelectedHero, heroData }}>
+      {children}
+    </HeroContext.Provider>
+  );
+};
 export const useHeroContext = () => useContext(HeroContext);
-
-
- 

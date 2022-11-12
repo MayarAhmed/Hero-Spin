@@ -5,7 +5,7 @@
     font-style: normal;
 }
 .heroBackgroud {
-    background-image: url("../../assets/galaxy.jpg");
+    background-image: url("../../assets/images/galaxy.jpg");
     background-size:cover;
     background-position: center;
     height:350px;
@@ -19,6 +19,12 @@
 
 .heroBackgroud h1{
     letter-spacing: 10px;;
+}
+
+.cardMedia {
+    border-radius:50%;
+    width:70%;
+    height:150px;
 }
 
 .gridCard {

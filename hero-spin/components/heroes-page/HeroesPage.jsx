@@ -1,18 +1,24 @@
 import React from "react";
+import { useRouter } from "next/router";
 import Grid from '@mui/material/Grid';
 import * as Heroes from "../../utils/utils.json";
-import HeroCard from "../Card/HeroesCard";
-import styles from "./HeroPage.module.css";
+import Card from "../Card/Card";
+import styles from "./HeroesPage.module.css";
 
 const HeroesPage = () => {
   const { heroes } = Heroes;
+  const router = useRouter();
+
+  const selectedHeroHandler = (heroName) => {
+    router.push(`/hero/${heroName}`);
+  };
 
   const heroesHandler = () => {
     return (
       <Grid container spacing={2} className={styles.gridCard}>
         {heroes.map((hero) => {
-          const { imageurl, name } = hero;
-          return <HeroCard heroImage={imageurl} heroName={name} />;
+          const { imageurl, name, id } = hero;
+          return <Card cardImage={imageurl} cardName={name} key={id} selectedItemHandler={()=>selectedHeroHandler(name)} cardStyle={styles.cardMedia}/>;
         })}
       </Grid>
     );

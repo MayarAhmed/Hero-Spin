@@ -2,6 +2,7 @@
     "heroes": [
         {
             "name": "Captain America",
+            "id":"1",
             "realname": "Steve Rogers",
             "team": "Avengers",
             "firstappearance": "1941",
@@ -11,6 +12,7 @@
         },
         {
             "name": "Iron Man",
+            "id":"2",
             "realname": "Tony Stark",
             "team": "Avengers",
             "firstappearance": "1963",
@@ -20,6 +22,7 @@
         },
         {
             "name": "Wolvarine",
+            "id":"3",
             "realname": "James Howlett",
             "team": "X-Men",
             "firstappearance": "1974",
@@ -29,6 +32,7 @@
         },
         {
             "name": "Spiderman",
+            "id":"4",
             "realname": "Peter Parker",
             "team": "Avengers",
             "firstappearance": "1962",
@@ -38,6 +42,7 @@
         },
         {
             "name": "Thor",
+            "id":"5",
             "realname": "Thor Odinson",
             "team": "Avengers",
             "firstappearance": "1962",
