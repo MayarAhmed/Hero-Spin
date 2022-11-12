@@ -21,7 +21,7 @@
             "imageurl": "https:\/\/www.simplifiedcoding.net\/demos\/marvel\/ironman.jpg"
         },
         {
-            "name": "Wolvarine",
+            "name": "X-Men",
             "id":"3",
             "realname": "James Howlett",
             "team": "X-Men",
@@ -49,6 +49,37 @@
             "createdby": "Stan Lee",
             "publisher": "Marvel Comics",
             "imageurl": "https:\/\/www.simplifiedcoding.net\/demos\/marvel\/thor.jpg"
+        },
+        {
+            "name": "Flash",
+            "id":"6",
+            "realname": "Flash Odinson",
+            "team": "Avengers",
+            "firstappearance": "1962",
+            "createdby": "Stan Lee",
+            "publisher": "Marvel Comics",
+            "imageurl": "https://www.imdb.com/title/tt3107288/mediaviewer/rm105957889/?ref_=tt_ov_i"
+        },
+        {
+                "name": "Batman",
+                "id":"7",
+                "realname": "Batman",
+                "team": "Avengers",
+                "firstappearance": "1962",
+                "createdby": "Stan Lee",
+                "publisher": "Marvel Comics",
+                "imageurl": "https://unsplash.com/photos/uYpOYyJdhRE"
+            
+        },
+        {
+            "name": "Dead Pool",
+            "id":"8",
+            "realname": "Dead Pool",
+            "team": "Avengers",
+            "firstappearance": "1962",
+            "createdby": "Stan Lee",
+            "publisher": "Marvel Comics",
+            "imageurl": "https://unsplash.com/photos/Erstoy-MuVA"
         }
     ]
 }
