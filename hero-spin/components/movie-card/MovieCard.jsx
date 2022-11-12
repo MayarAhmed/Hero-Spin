@@ -12,7 +12,6 @@ import SkipNextIcon from "@mui/icons-material/SkipNext";
 
 const MovieCard = ({movieName, movieData, movieImage, movieType}) => {
     const theme = useTheme();
-    console.log({movieImage})
     return (
       <Card sx={{ display: 'flex', flexDirection: 'column' }}>
 

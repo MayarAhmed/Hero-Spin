@@ -10,7 +10,6 @@ const MoviPage = props => {
   const { movieName } = router.query;
   const chosenMovie = movies?.filter(movie=> movie.Title === movieName)
   const {Poster, Type, Year} = movies? chosenMovie[0] : [];
-  console.log(chosenMovie)
   return (
     <>
      <h2>{movieName}</h2>
