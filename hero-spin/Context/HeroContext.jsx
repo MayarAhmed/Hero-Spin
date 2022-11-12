@@ -7,6 +7,7 @@ const HeroContext = createContext({});
 export const HeroContextProvider = ({ children }) => {
   const [selectedHero, setSelectedHero] = useState(null);
   const [heroData, setHeroData] = useState([]);
+  const [movies, setMovies] = useState([]);
   useEffect(() => {
     const fetchAPI = async () => {
       if (selectedHero) {
@@ -19,7 +20,13 @@ export const HeroContextProvider = ({ children }) => {
   }, [selectedHero]);
 
   return (
-    <HeroContext.Provider value={{ selectedHero, setSelectedHero, heroData }}>
+    <HeroContext.Provider value={{
+       selectedHero,
+        setSelectedHero, 
+        heroData,
+        movies,
+        setMovies
+        }}>
       {children}
     </HeroContext.Provider>
   );

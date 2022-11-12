@@ -4,7 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia"
 import Typography from "@mui/material/Typography";
 import styles from "./Card.module.css";
-import galaxy from '../../assets/images/galaxy.jpg'
+
 const CardData = ({image, cardname, mediaclass, typoClass}) => {
   const noPoster = '../../assets/images/galaxy.jpg';
   const updatedImage = image == "N/A" ? noPoster : image; 

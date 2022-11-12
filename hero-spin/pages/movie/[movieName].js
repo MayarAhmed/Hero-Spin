@@ -1,8 +1,7 @@
-import React from 'react'
-
+import MoviePage from "../../components/movies-page/MoviPage"
 const  movieNameRoute = () => {
   return (
-    <div></div>
+    <MoviePage/>
   )
 }
 
